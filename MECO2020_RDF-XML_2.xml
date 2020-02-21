@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<rdf:RDF
+  xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+  xmlns:vCard='http://www.w3.org/2001/vcard-rdf/3.0#'
+  xmlns:my='http://127.0.0.1/bg/ont/test1#'
+   >
+
+<!--Hubs definitions-->
+
+  <rdf:Description rdf:about="http://127.0.0.1/Hub_1/">
+    <my:has_id>H000001</my:has_id>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Hub_2/">
+    <my:has_id>H000002</my:has_id>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Hub_3/">
+    <my:has_id>H000003</my:has_id>
+ </rdf:Description>
+
+<!--Device models definitions-->
+
+  <rdf:Description rdf:about="http://127.0.0.1/Device_model_1/">
+    <my:has_id>Moto2k</my:has_id>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Device_model_2/">
+    <my:has_id>Cisco3260</my:has_id>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Device_model_3/">
+    <my:has_id>ArrisWB11</my:has_id>
+ </rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1/Device_model_4/">
+    <my:has_id>ArrisWB20</my:has_id>
+ </rdf:Description>
+
+
+<!--Devices definitions-->
+
+  <rdf:Description rdf:about="http://127.0.0.1/Device_1/">
+    <rdf:subject>http://127.0.0.1/Device_1/</rdf:subject>
+	<my:has_id>D000001</my:has_id>
+	<my:is_connected_to_hub>H000001</my:is_connected_to_hub>
+	<my:has_the_device_model>Moto2k</my:has_the_device_model>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Device_2/">
+    <my:has_id>D000002</my:has_id>
+	<my:is_connected_to_hub>H000002</my:is_connected_to_hub>
+	<my:has_the_device_model>Cisco3260</my:has_the_device_model>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Device_3/">
+    <my:has_id>D000003</my:has_id>
+	<my:is_connected_to_hub>H000002</my:is_connected_to_hub>
+	<my:has_the_device_model>ArrisWB11</my:has_the_device_model>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Device_4/">
+    <my:has_id>D000004</my:has_id>
+	<my:is_connected_to_hub>H000002</my:is_connected_to_hub>
+	<my:has_the_device_model>ArrisWB20</my:has_the_device_model>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Device_5/">
+    <my:has_id>D000005</my:has_id>
+	<my:is_connected_to_hub>H000003</my:is_connected_to_hub>
+	<my:has_the_device_model>Moto2k</my:has_the_device_model>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Device_6/">
+    <my:has_id>D000006</my:has_id>
+	<my:is_connected_to_hub>H000003</my:is_connected_to_hub>
+	<my:has_the_device_model>Cisco3260</my:has_the_device_model>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Device_7/">
+    <my:has_id>D000007</my:has_id>
+	<my:is_connected_to_hub>H000001</my:is_connected_to_hub>
+	<my:has_the_device_model>ArrisWB11</my:has_the_device_model>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Device_8/">
+    <my:has_id>D000008</my:has_id>
+	<my:is_connected_to_hub>H000001</my:is_connected_to_hub>
+	<my:has_the_device_model>ArrisWB20</my:has_the_device_model>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Device_9/">
+    <my:has_id>D000009</my:has_id>
+	<my:is_connected_to_hub>H000001</my:is_connected_to_hub>
+	<my:has_the_device_model>Moto2k</my:has_the_device_model>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Device_10/">
+    <my:has_id>D000010</my:has_id>
+	<my:is_connected_to_hub>H000002</my:is_connected_to_hub>
+	<my:has_the_device_model>Cisco3260</my:has_the_device_model>
+ </rdf:Description>
+
+<!--Accounts definitions-->
+
+  <rdf:Description rdf:about="http://127.0.0.1/Account_1/">
+    <rdf:subject>http://127.0.0.1/Account_1/</rdf:subject>
+	<my:has_id>ACC000001</my:has_id>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Account_2/">
+    <my:has_id>ACC000002</my:has_id>
+</rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Account_3/">
+    <my:has_id>ACC000003</my:has_id>
+	
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Account_4/">
+    <my:has_id>ACC000004</my:has_id>
+	
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Account_5/">
+    <my:has_id>ACC000005</my:has_id>
+	
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Account_6/">
+    <my:has_id>ACC000006</my:has_id>
+	
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Account_7/">
+    <my:has_id>ACC000007</my:has_id>
+	
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Account_8/">
+    <my:has_id>ACC000008</my:has_id>
+	
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Account_9/">
+    <my:has_id>ACC000009</my:has_id>
+	
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/Account_10/">
+    <my:has_id>ACC000010</my:has_id>
+	
+ </rdf:Description>
+
+
+
+<!--Users definitions-->
+
+  <rdf:Description rdf:about="http://127.0.0.1/User_1/">
+    <my:type>User</my:type>
+	<my:has_id>U000001</my:has_id>
+	<my:uses_device>D000001</my:uses_device>
+	<my:includes_user>ACC000001</my:includes_user>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/User_2/">
+	<my:type>User</my:type>
+    <my:has_id>U000002</my:has_id>
+	<my:uses_device>D000002</my:uses_device>
+	<my:includes_user>ACC000002</my:includes_user>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/User_3/">
+	<my:type>User</my:type>
+    <my:has_id>U000003</my:has_id>
+	<my:uses_device>D000003</my:uses_device>
+	<my:includes_user>ACC000003</my:includes_user>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/User_4/">
+	<my:type>User</my:type>
+    <my:has_id>U000004</my:has_id>
+	<my:uses_device>D000004</my:uses_device>
+	<my:includes_user>ACC000004</my:includes_user>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/User_5/">
+	<my:type>User</my:type>
+    <my:has_id>U000005</my:has_id>
+	<my:uses_device>D000005</my:uses_device>
+	<my:includes_user>ACC000005</my:includes_user>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/User_6/">
+	<my:type>User</my:type>
+    <my:has_id>U000006</my:has_id>
+	<my:uses_device>D000006</my:uses_device>
+	<my:includes_user>ACC000006</my:includes_user>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/User_7/">
+	<my:type>User</my:type>
+    <my:has_id>U000007</my:has_id>
+	<my:uses_device>D000007</my:uses_device>
+	<my:includes_user>ACC000007</my:includes_user>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/User_8/">
+	<my:type>User</my:type>
+    <my:has_id>U000008</my:has_id>
+	<my:uses_device>D000008</my:uses_device>
+	<my:includes_user>ACC000008</my:includes_user>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/User_9/">
+	<my:type>User</my:type>
+    <my:has_id>U000009</my:has_id>
+	<my:uses_device>D000009</my:uses_device>
+	<my:includes_user>ACC000009</my:includes_user>
+ </rdf:Description>
+
+ <rdf:Description rdf:about="http://127.0.0.1/User_10/">
+	<my:type>User</my:type>
+    <my:has_id>U0000010</my:has_id>
+	<my:uses_device>D000010</my:uses_device>
+	<my:includes_user>ACC000010</my:includes_user>
+ </rdf:Description>
+ 
+<!--Data assets definition-->
+
+ <rdf:Description rdf:about="http://127.0.0.1/Data_asset_ID_1/">
+    <my:name>Star wars episode 1</my:name>
+ </rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1/Data_asset_ID_2/">
+    <my:name>Star wars episode 2</my:name>
+ </rdf:Description>
+ 
+ <rdf:Description rdf:about="http://127.0.0.1/Data_asset_ID_3/">
+    <my:name>Star wars episode 3</my:name>
+ </rdf:Description>
+ 
+ <rdf:Description rdf:about="http://127.0.0.1/Data_asset_ID_4/">
+    <my:name>Star wars episode 4</my:name>
+ </rdf:Description>
+ 
+ <rdf:Description rdf:about="http://127.0.0.1/Data_asset_ID_5/">
+    <my:name>Star wars episode 5</my:name>
+ </rdf:Description>
+ 
+ <rdf:Description rdf:about="http://127.0.0.1/Data_asset_ID_6/">
+    <my:name>Star wars episode 6</my:name>
+ </rdf:Description>
+ 
+ <rdf:Description rdf:about="http://127.0.0.1/Data_asset_ID_7/">
+    <my:name>Star wars episode 7</my:name>
+ </rdf:Description>
+ 
+ <rdf:Description rdf:about="http://127.0.0.1/Data_asset_ID_8/">
+    <my:name>Star wars episode 8</my:name>
+ </rdf:Description>
+ 
+ <rdf:Description rdf:about="http://127.0.0.1/Data_asset_ID_9/">
+    <my:name>Star wars episode 9</my:name>
+ </rdf:Description>
+ 
+ <rdf:Description rdf:about="http://127.0.0.1/Data_asset_ID_10/">
+    <my:name>Star wars episode 10</my:name>
+ </rdf:Description>
+
+<!--Search results definitions-->
+
+ <rdf:Description rdf:about="http://127.0.0.1/Data_asset_ID_11/">
+    <my:includes_data>http://127.0.0.1/Data_asset_ID_1/</my:includes_data>
+	<my:includes_data>http://127.0.0.1/Data_asset_ID_2/</my:includes_data>
+	<my:includes_data>http://127.0.0.1/Data_asset_ID_3/</my:includes_data>
+	<my:includes_data>http://127.0.0.1/Data_asset_ID_4/</my:includes_data>
+	<my:includes_data>http://127.0.0.1/Data_asset_ID_5/</my:includes_data>
+	 <my:uses_data>http://127.0.0.1/Search_1/</my:uses_data>
+ </rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1/Data_asset_ID_12/">
+    <my:includes_data>http://127.0.0.1/Data_asset_ID_6/</my:includes_data>
+	<my:includes_data>http://127.0.0.1/Data_asset_ID_7/</my:includes_data>
+	<my:includes_data>http://127.0.0.1/Data_asset_ID_8/</my:includes_data>
+	<my:includes_data>http://127.0.0.1/Data_asset_ID_9/</my:includes_data>
+	<my:includes_data>http://127.0.0.1/Data_asset_ID_10/</my:includes_data>
+	<my:uses_data>http://127.0.0.1/Search_2/</my:uses_data>
+ </rdf:Description>
+
+
+
+<!--Search calls definitions-->
+
+ <rdf:Description rdf:about="http://127.0.0.1/User_1/">
+    <my:calls_srv>http://127.0.0.1/Search_1/</my:calls_srv>
+ </rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1/User_2/">
+    <my:calls_srv>http://127.0.0.1/Search_2/</my:calls_srv>
+ </rdf:Description>
+ 
+
+ 
+ 
+ 
+<!--VOD calls definitions-->
+
+ <rdf:Description rdf:about="http://127.0.0.1/User_1/">
+    <my:watch>http://127.0.0.1/Data_asset_ID_1/</my:watch>
+	 <my:watch>http://127.0.0.1/Data_asset_ID_2/</my:watch>
+	 <my:watch>http://127.0.0.1/Data_asset_ID_7/</my:watch>
+ </rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1/User_2/">
+    <my:watch>http://127.0.0.1/Data_asset_ID_1/</my:watch>
+	 <my:watch>http://127.0.0.1/Data_asset_ID_2/</my:watch>
+	  <my:watch>http://127.0.0.1/Data_asset_ID_3/</my:watch>
+ </rdf:Description>
+ 
+ <rdf:Description rdf:about="http://127.0.0.1/User_3/">
+    <my:watch>http://127.0.0.1/Data_asset_ID_1/</my:watch>
+ </rdf:Description>
+
+
+</rdf:RDF>
